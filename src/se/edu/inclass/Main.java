@@ -33,11 +33,13 @@ public class Main {
         return count;
     }
 
+
     public static void printData(ArrayList<Task> tasksData) {
         for (Task t : tasksData) {
             System.out.println(t);
         }
     }
+
 
     public static void printDeadlines(ArrayList<Task> tasksData) {
         for (Task t : tasksData) {
@@ -46,4 +48,5 @@ public class Main {
             }
         }
     }
+
 }
